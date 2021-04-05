@@ -1,3 +1,0 @@
-.metadata/
-doNotTrackFile.txt
-*docx
