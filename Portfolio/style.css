@@ -1,0 +1,246 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	 background: linear-gradient(45deg,#000000, #434343);
+	 padding: 100px 0;
+	 min-width: 1500px;
+	 min-height: 1500px;
+}
+.container{
+	width: 53.323%;
+	height: 38.666% ;
+	border: 10px solid #fff;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 10px;
+}
+.header{
+	display: flex;
+	height: 150px;
+}
+.title-block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	width: 80%;
+	height: 100%;
+	border: 2px solid white;
+	background: url(img/code.jpg) no-repeat center center / cover;
+	color: #fff;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.userpic{
+	display: flex;
+	width: 20%;
+	height: 100%;
+	border: 2px solid white;
+	background: url(img/avatarka.jpg) no-repeat center center  / cover;
+	border-radius: 10px;
+	}
+.content-wrapper{
+	display: flex;
+}
+.content{
+	width: 70%;
+	padding: 20px;
+}
+.sidebar{
+	padding: 20px;
+	width: 30%;
+}
+.contacts{
+	padding: 0;
+}
+.contacts li{
+	padding: 10px 0;
+	transition: transform 0.5s ease;
+	cursor: pointer;
+	list-style-type: none;
+}
+.contacts li:hover{
+	transform: translateX(10px);
+}
+a{
+	text-decoration: none;
+	position: relative;
+	color: black;
+}
+.sidebar a::before{
+	content: '';
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+	transition: 0.6s;
+	transform: scaleX(0);
+}
+.sidebar a:hover:before{
+	transform: scaleX(1);
+}
+.header_p{
+	margin: 0 auto;
+	display: flex;
+	height: 6.666%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+	color: white;
+}
+.main{
+	display: flex;
+	height: 500px;
+	width: 1500px;
+	margin: 0 auto;
+}
+.one{
+	display: flex;
+	width: 30%;
+	height: 100%;
+	flex-direction: column-reverse;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+	border-radius: 10px;
+
+}
+.two{
+	margin: 0 auto;
+	display: flex;
+	width: 30%;
+	height: 100%;
+	flex-direction: column-reverse;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.three{
+	display: flex;
+	width: 30%;
+	height: 100%;
+	flex-direction: column-reverse;
+	transition: all 0.2s ease-out;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.one:hover{
+		box-shadow: 12px 29px 81px 0px rgba(100,100,100,1);
+}
+.two:hover{
+		box-shadow: 12px 29px 81px 0px rgba(100,100,100,1);
+}
+.three:hover{
+		box-shadow: 12px 29px 81px 0px rgba(100,100,100,1);
+}
+.name1{
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 15%;
+	justify-content: center;
+	align-items: center;
+}
+.img1{
+	width: 100%;
+	height: 85%;
+	background: url(img/one1.PNG) no-repeat center center  / cover;
+	border-radius: 10px;
+
+}
+.name2{
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 15%;
+	justify-content: center;
+	align-items: center;
+}
+.img2{
+	width: 100%;
+	height: 85%;
+	background: url(img/two.PNG) no-repeat center center  / cover;
+	border-radius: 10px;
+}
+.name3{
+	color: white;
+	display: flex;
+	width: 100%;
+	height: 15%;
+	justify-content: center;
+	align-items: center;	
+}
+.img3{
+	width: 100%;
+	height: 85%;
+	background: url(img/three.PNG) no-repeat center center  / cover;
+	border-radius: 10px;
+}
+.one:hover{
+	transform: scale(1.07);
+}
+.two:hover{
+	transform: scale(1.07);
+}
+.three:hover{
+	transform: scale(1.07);
+}
+.container2{
+	margin-top: 120px;
+	height: auto;
+	background-color: white;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	background: rgba(0, 0, 0, 0);
+	}
+.social {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+}
+.social_item{
+	color: white;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	transition: all 0.3s;
+}
+.telegram:hover{
+	cursor: pointer;
+	border-color: #0088cc;
+	box-shadow: 0px 0px 25px #0088cc;
+	color: #0088cc;
+}
+.vk:hover{
+	cursor: pointer;
+	border-color: #2787f5;
+	box-shadow: 0px 0px 25px #2787f5;
+	color: #2787f5;
+}
+.inst:hover{
+	cursor: pointer;
+	border-color: #e1306c;
+	box-shadow: 0px 0px 25px #e1306c;
+	color: #e1306c;
+}
+.whatsapp:hover{
+	cursor: pointer;
+	border-color: #4dc247;
+	box-shadow: 0px 0px 25px #4dc247;
+	color: #4dc247;
+}
+.content{
+	margin: 0 auto;
+	width: 1500px;
+}
+
